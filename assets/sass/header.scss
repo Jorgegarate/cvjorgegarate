@@ -1,0 +1,91 @@
+@import 'colores';
+.aligncenter {
+    padding-top: 15%;
+
+    @media (max-width:767px) {
+        text-align: center;
+        padding: 50px!important;
+        
+    }
+}
+
+.nav-padding {
+    padding: 20px 0px;
+    
+}
+.nav-tamano {
+    font-size: 1.4rem;
+}
+.border-bottomNew {
+    border-bottom: 1px solid $color-blanco ;
+}
+
+.animation-nav{
+    animation-duration: 3s;
+	animation-name: aparecernav;
+	animation-iteration-count:initial;
+    @keyframes aparecernav {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+        
+    }
+
+}
+.img-banner {
+    img{
+        width: 60%;
+    }
+    @media (max-width:767px) {
+
+    img {
+        width: 55%;
+    }
+        
+    }
+}
+
+.fondo {
+    background-position:center;
+    background: no-repeat;
+    background-size:  100% 100%;
+    background: linear-gradient(30deg, #000000, #1f030363),url(../img/fondo-02.jpg);
+    -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-attachment: fixed;
+    img {
+        width: 100%;
+    }
+}
+
+.banner {
+    padding-top: 100px;
+	margin-inline: 100px;
+    animation-duration: 1s;
+	animation-name: aparecer;
+	animation-iteration-count:initial;
+    
+}
+@keyframes aparecer {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+	
+}
+.important--float{
+	margin-top:-57px ;
+	display: flex;
+    justify-content: center;
+}
+.font-header {
+    font-size: 1.8rem;
+}
+//
