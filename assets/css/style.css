@@ -94,7 +94,7 @@ img {
 }
 
 .color-sticky {
-  background-color: rgba(0, 0, 0, 0.712);
+  background-color: rgba(0, 0, 0, 0);
   margin-top: -82px;
 }
 @media (max-width: 991px) {
