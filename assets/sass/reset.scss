@@ -16,14 +16,24 @@ body {
     background-color: $color-blanco;
   }
 .paddingtop {
-    padding-top: 60px;
+    padding: 110px;
+    @media (max-width:991px) {
+        padding: 30px 10px;
+        }
 }
 ol,
 ul {
   padding-left: 0px;
   color:$color-blanco;
 }
-.nav-link {
+.nav-item {
+    @media (max-width:991px) {
+    padding-top: 10px;
+    }
+}
+.navs-link {
+    padding: .5rem 1rem;
+    text-decoration: none;
     color: $color-blanco;
     &:hover {
         color: $color-complementario;
@@ -40,7 +50,12 @@ ul {
     color: $color-blanco;
     text-shadow: 0.1em 0.1em 0.2em rgb(0 0 0 / 42%);
     h1 {
-        font-weight: 400;
+        font-size: 6rem;
+        font-weight: 600;
+        @media (max-width:991px) {
+            font-size: 3rem;
+            
+        }
         strong {
             font-weight: 600;
             color:$color-principal;
