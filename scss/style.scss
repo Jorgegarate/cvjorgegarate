@@ -66,16 +66,17 @@ div {
     animation-duration: 3s;
 	animation-name: aparecernav;
 	animation-iteration-count:initial;
+
     .header__nav--logo {
         flex-grow: 1;
         flex-basis: 10%;
         padding: 10px 0px;
         
+		&:hover {
+			transform: scale(1.05);
+			transition: all 1s;
+		}
     
-    }
-    .header__nav--logo:hover {
-        transform: scale(1.05);
-        transition: all 1s;
     }
 
 	
