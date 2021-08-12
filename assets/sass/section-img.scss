@@ -7,7 +7,7 @@
         color: $color-principal;
     }
     p {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
     }
 }
 .carousel-caption {
@@ -24,3 +24,6 @@
 .corousel-imagenes {
     margin: 0 auto;
 }
+.linea-inferior {
+    background-color: $color-principal;
+   }

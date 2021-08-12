@@ -342,15 +342,26 @@ img {
   }
 }
 
+.modal-contentenido {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+  outline: 0;
+}
+
 .section-texth2 {
   font-size: 3rem;
   font-weight: 600;
   color: #3B55E6;
-  padding-bottom: 25px;
 }
 
 .section-textp {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   padding-bottom: 25px;
 }
 
@@ -376,7 +387,7 @@ img {
   font-size: 3rem;
 }
 .container--video p {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 
 .section--video {
@@ -448,7 +459,7 @@ img {
   color: #3B55E6;
 }
 .text-alignconstruccion p {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 }
 
 .carousel-caption h5 {
@@ -462,6 +473,10 @@ img {
 
 .corousel-imagenes {
   margin: 0 auto;
+}
+
+.linea-inferior {
+  background-color: #3B55E6;
 }
 
 .cards-list {
@@ -480,6 +495,7 @@ img {
   box-shadow: 0 0 10px rgba(88, 88, 88, 0.397);
   cursor: pointer;
   transition: 0.4s;
+  background-color: #00000000;
 }
 
 .card .card_image {
