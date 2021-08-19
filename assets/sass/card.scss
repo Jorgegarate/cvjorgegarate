@@ -31,9 +31,7 @@
       .card_title {
         text-align: center;
         border-radius: 0px 0px 40px 40px;
-        font-family: sans-serif;
-        font-weight: bold;
-        font-size: 20px;
+        font-size: 2rem;
         margin-top: -80px;
         height: 40px;
         color: white;
@@ -62,6 +60,10 @@
     font-size: 5rem;
     font-weight: 600;
     padding-bottom: 10px;
+    @media all and (max-width:680px) {
+      font-size: 3rem;
+      
+    }
 }
 .separacion {
     margin-left: 20px;
@@ -85,7 +87,7 @@
     }
 
     &:hover::before {
-        background-color: rgba(0, 0, 0, 0.80);
+        background-color: rgba(0, 0, 0, 0.096);
     }
 
     img {
@@ -102,20 +104,25 @@
         padding: 30px 35px;
         transition: $transition;
         z-index: 5;
+        @media (max-width:767px) {
+          padding: 10px 25px;
+          
+        }
         
         
         span {
             display: block;
             margin-bottom: 10px;
-            font-size: 15px;
+            font-size: 1.5rem;
             a {
                 color: $color-blanco;
                 text-decoration: none;
+                font-size: 1.5rem;
             }
         }
         h3 {
-            font-size: 22px;
-            line-height: 1.4;
+            font-size: 1.7rem;
+            line-height: 1.9rem;
             margin-bottom: 20px;
             text-decoration:none;
         }
@@ -124,7 +131,7 @@
             color: $color-principal;
             padding: 10px 20px 5px;
             border-radius: 10px;
-            font-size: 15px;
+            font-size: 1.5rem;
             &:hover {
                 background-color: $black-color;
                 color: $color-blanco;
@@ -140,7 +147,7 @@
     &:hover {
         &::before {
             height: 100%;
-            background-image: linear-gradient(to bottom, rgba(rgba(219, 131, 30, 0), 0), rgba(rgba(0, 140, 255, 0.205), 1));
+            background-image: linear-gradient(to bottom, rgba(rgba(219, 131, 30, 0), 0), rgba(rgba(0, 0, 0, 0.054), 1));
         }
         .content {
             bottom: 20px;

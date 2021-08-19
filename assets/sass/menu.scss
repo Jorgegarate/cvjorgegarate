@@ -1,4 +1,3 @@
-
 .menus-btn {
     position: relative;
     display: flex;
@@ -40,7 +39,7 @@
   .menus-btn__burger::after {
     transform: translateY(16px);
   }
-  /* ANIMATION */
+  /* animacion */
   .menus-btn.open .menus-btn__burger {
     transform: translateX(-50px);
     background: transparent;

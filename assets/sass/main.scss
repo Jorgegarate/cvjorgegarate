@@ -2,7 +2,7 @@
 .row-padding {
     padding: 20px 0px;
 .border-cajas {
-    margin: 30px;
+    margin: 15px;
     padding: 30px;
     box-shadow: 0px 0px 10px rgb(88 88 88 / 14%);
 
@@ -35,7 +35,7 @@
 
     }
     @media (max-width:467px) {
-        margin: 60px;
+        margin: 20px;
     padding:50px;
     img {
         width: 100%;
@@ -44,7 +44,7 @@
     }
 
     @media (min-width:468px)and(max-width:767px) {
-        margin: 100px;
+        margin: 50px;
     padding: 30px 50px;
     img {
         width: 100%;
@@ -52,7 +52,7 @@
         
     }
     @media (min-width:768px)and(max-width:1000px) {
-        margin: 30px;
+        margin: 10px;
     padding: 30px;
     img {
         width: 100%;
