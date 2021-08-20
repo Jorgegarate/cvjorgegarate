@@ -625,12 +625,48 @@ img {
   bottom: 20px;
 }
 
+.fondo__contacto {
+  height: 0;
+}
+
+.aligncenter--contacto {
+  padding-top: 5%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.color__contacto {
+  background-color: #ffff;
+  margin-top: -100px;
+}
+
+.col__iframe {
+  padding: 0px;
+}
+
+.form-group label {
+  color: #3B55E6;
+  font-size: 1.5rem;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  font-size: 1.3rem;
+}
+
+@media (max-width: 767px) {
+  .margin__formulario {
+    padding: 25px;
+  }
+}
+
 .footer__color {
   background-color: #2e2e2e;
 }
 @media (max-width: 767px) {
   .footer__color {
-    padding: 50px;
+    padding: 30px;
   }
 }
 

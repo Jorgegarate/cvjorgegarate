@@ -4,15 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="html, Diseño, 3d, Retoque Digital, Desarrollo Web">
-    <meta name="description" content="Pagina web de Diseño y Desarrollo web">
+    <meta name="keywords" content="html, Diseño, 3d, Retoque Digital, Desarrollo Web, Branding, logotipo">
+    <meta name="description" content="Portafolio web de Jorge Garate con trabajos de diseño Grafico, desarrollo web y modelado de productos 3d">
+    <!-- open graph para redes sociales-->
+    <meta property="og:title"content="Jorge Garate Diseñador y desarrollador Web">
+    <meta property="og:url"content="http://jorgegarate.elcajondelartesano.cl/">
+    <meta property="og:image"content="http://jorgegarate.elcajondelartesano.cl/assets/img/carne.jpg">
+    <meta property="og:description"content="Conoce los trabajos realizados por Jorge Garate en su portafolio web">
+
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-
     <link  rel="icon"   href="assets/img/favicon.png" type="image/png"/>
+    
     <title>Jorge Garate Diseñador y desarrollador Web</title>
 </head>
 <body>
+  
 <!--inicio del header-->
 <div class="sticky-top color-sticky animation-nav">
   <div class="container">
@@ -31,14 +38,17 @@
     <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end " id="navbarNav">
       <ul class="nav navbar-nav nav-tamano ">
         <li class="nav-item  ">
-          <a class="navs-link active" aria-current="page" href="servicios.html">Servicios</a>
+          <a class="navs-link active" aria-current="page" href="index.html#servicios">Servicios</a>
       </li>
       <li class="nav-item">
-          <a class="navs-link active" aria-current="page" href="portafolio.html">Portafolio</a>
+        <a class="navs-link active" aria-current="page" href="index.html#sobremi">Sobre Mi</a>
+    </li>
+      <li class="nav-item">
+          <a class="navs-link active" aria-current="page" href="index.html#portafolio">Portafolio</a>
       </li>
       <li class="nav-item">
-          <a class="navs-link active" aria-current="page" href="sobre-mi.html">Sobre Mi</a>
-      </li>
+        <a class="navs-link active" aria-current="page" href="contacto.html">Contacto</a>
+    </li>
       </ul>
     </div>
   </div>
@@ -67,7 +77,7 @@
                       </div>
                     </div>
                   </div>
-                  <button type="button" class="btn btn-primary button-lg"data-bs-toggle="modal" href="#exampleModalToggle" role="button">Ver Más</button>
+                  <button id="servicios" type="button" class="btn btn-primary button-lg"data-bs-toggle="modal" href="#exampleModalToggle" role="button">Ver Más</button>
                   </div>
     
         </div>
@@ -92,7 +102,7 @@
 			
 		</div>
 		<!--Productos-->
-		<div class="d-md-flex justify-content-md-between row-padding">
+		<div  class="d-md-flex justify-content-md-between row-padding">
 		<div class="border-cajas ">
 			<img src="assets/img/1-1.png" alt="imagen 1 del servicio">
 			<h2 class="font-grosor">Desarrollos Web</h2>
@@ -103,7 +113,7 @@
 		</div>
 		<div class="border-cajas">
 			<img src="assets/img/4-1.png" alt="imagen 3 del servicio">
-			<h2 class="font-grosor">Desarrollo 3d</h2>
+			<h2 id="sobremi" class="font-grosor">Desarrollo 3d</h2>
 		</div>
 		</div>
   	</main>
@@ -163,14 +173,14 @@ imprentas como asimismo independiente en proyectos de posicionamiento de marca
             <p class="colorsecundario">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore odio, dolorem ipsa dolore repellat maxime, pariatur, doloribus, eum corporis quam ipsam porro veniam sit dolorum harum. Dicta reiciendis illum accusamus.</p>
              </div>
              <!--enlace externo para mostrar video sin auto play-->
-              <div class="col-12 col-md-6 embed-container">
+              <div  class="col-12 col-md-6 embed-container">
                 <iframe title="vimeo-player" src="https://player.vimeo.com/video/584033784" frameborder="0" allowfullscreen></iframe>
               </div>
             
           </div>
   </section>
   <!--Section Portafolio-->
-  <section class="linea-inferior p-5">
+  <section id="portafolio" class="linea-inferior p-5">
     <div class="container">
       <div class="bd-example">
         <h3 class="text-center section-texth3 pt-5">Portafolio</h3>
@@ -343,28 +353,27 @@ imprentas como asimismo independiente en proyectos de posicionamiento de marca
               <!--card 4-->
               <div class="col-lg-4 col-sm-6 col-xl-4">
               <div class="work-card">
-              <img src="assets/img/auto-frontal.jpg" alt="image">
+              <img src="assets/img/sal.jpg" alt="image">
               <div class="content">
               <span>
-              <a href="#">Desarrollo 3D</a>
+              <a href="#">Fotografia de Etiquetas</a>
               </span>
               <h3>
-              <a href="https://www.behance.net/gallery/99259419/Modelado-3D-Jeep">Generaciòn de modelado, texturizado e iluminaciòn</a>
+              <a href="#">Fotografia de producto</a>
               </h3>
-              <a class="work-btn" href="https://www.behance.net/gallery/99259419/Modelado-3D-Jeep">Ver Proyecto</a>
               </div>
               </div>
               </div>
               <!--card 5-->
               <div class="col-lg-4 col-sm-6 col-xl-4">
               <div class="work-card">
-              <img src="assets/img/MIMET.jpg" alt="image">
+              <img src="assets/img/auto.jpg" alt="image">
               <div class="content">
               <span>
               <a href="#">Modelado y Retoque Digital</a>
               </span>
               <h3>
-              <a href="#">Modolado para empresa Mimet</a>
+              <a href="#">Modolado 3D Camioneta</a>
               </h3>
               </div>
               </div>
@@ -372,13 +381,13 @@ imprentas como asimismo independiente en proyectos de posicionamiento de marca
               <!--card 6-->
               <div class="col-lg-4 col-sm-6 col-xl-4">
               <div class="work-card">
-              <img src="assets/img/imagen-kalpa.jpg" alt="image realizada en photoshop" >
+              <img src="assets/img/fondo-01.jpg" alt="image realizada en photoshop" >
               <div class="content">
               <span>
               <a href="#">Retoque digital 3D</a>
               </span>
               <h3>
-              <a href="#" target="_blank">Generacion de fotomante Publicitario</a>
+              <a href="#" target="_blank">Retoque digital</a>
               </h3>
                </div>
               </div>
@@ -418,11 +427,11 @@ imprentas como asimismo independiente en proyectos de posicionamiento de marca
                               </a>
                               <!--iconos-->
                             <ul class="d-flex py-5">
-                                <li class="pe-4"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                                <li class="pe-4"><a href="https://www.facebook.com/"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
                                     <path id="Icon_Facebook" data-name="Icon Facebook" d="M16.741,28.7h3.6V20h2.4l.318-3H20.338l0-1.5c0-.782.075-1.2,1.2-1.2h1.5v-3h-2.4c-2.883,0-3.9,1.455-3.9,3.9V17h-1.8v3h1.8ZM19,36A16,16,0,1,1,35,20,16,16,0,0,1,19,36Z" transform="translate(-3 -4)" fill="#fff" fill-rule="evenodd"></path>
                                   </svg>
                                   </a></li>
-                                <li class="pe-4"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                                <li class="pe-4"><a href="https://www.google.com/"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
                                     <g id="Ico_Google_" data-name="Ico Google+" transform="translate(-295 -80)">
                                       <circle id="Elipse_7" data-name="Elipse 7" cx="16" cy="16" r="16" transform="translate(295 80)" fill="#fff"></circle>
                                       <path id="G" d="M19.521,42.515a7.1,7.1,0,0,1,11.764-5.309c-.577.634-1.163,1.261-1.79,1.847a4.958,4.958,0,0,0-4.173-.816,4.459,4.459,0,1,0,3,8.39,3.9,3.9,0,0,0,2.292-2.673c-1.348-.027-2.7-.01-4.045-.047,0-.8-.007-1.6,0-2.4,2.248,0,4.5-.01,6.752.01a7.978,7.978,0,0,1-1.429,5.646,6.963,6.963,0,0,1-7.611,2.029A7.056,7.056,0,0,1,19.521,42.515Z" transform="translate(281.042 53.171)" fill="#21a0f1"></path>
@@ -430,7 +439,7 @@ imprentas como asimismo independiente en proyectos de posicionamiento de marca
                                     </g>
                                   </svg>
                                   </a></li>
-                                <li class="pe-4"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                                <li class="pe-4"><a href="https://twitter.com/"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
                                     <path id="Icon_Twitter" data-name="Icon Twitter" d="M22.222,13.751A3.235,3.235,0,0,0,20.043,17l.034.554-.559-.068A9.082,9.082,0,0,1,14.2,14.869l-.738-.734-.19.542a3.265,3.265,0,0,0,.693,3.345c.447.475.346.542-.425.26a1.327,1.327,0,0,0-.525-.124,4.06,4.06,0,0,0,.4,1.514,3.61,3.61,0,0,0,1.531,1.446l.548.26-.648.011c-.626,0-.648.011-.581.249a3.381,3.381,0,0,0,2.09,1.853l.693.237-.6.362a6.267,6.267,0,0,1-3,.836,3.284,3.284,0,0,0-.917.091,8.538,8.538,0,0,0,2.157.994,9.429,9.429,0,0,0,7.331-.836,9.824,9.824,0,0,0,3.722-4.385A11.655,11.655,0,0,0,26.5,17.4c0-.52.034-.588.659-1.209a7.366,7.366,0,0,0,.782-.87c.112-.215.1-.215-.469-.023-.95.339-1.084.294-.614-.214a3.293,3.293,0,0,0,.76-1.209c0-.034-.167.022-.358.124a6.177,6.177,0,0,1-.983.384l-.6.193-.548-.373a4.542,4.542,0,0,0-.95-.5A3.818,3.818,0,0,0,22.222,13.751ZM20,36A16,16,0,1,1,36,20,16,16,0,0,1,20,36Z" transform="translate(-4 -4)" fill="#fff" fill-rule="evenodd"></path>
                                   </svg>
                                   </a></li>
@@ -440,10 +449,10 @@ imprentas como asimismo independiente en proyectos de posicionamiento de marca
                     <div class="col-md-4 footer-enlaces">
                             <h4> Enlaces de interes</h4>
                             <ul class="footer-enlaces--lista">
-                                <li><a href="#">Servicios</a></li>
-                                <li><a href="#">Portafolio</a></li>
-                                <li><a href="#">Sobre Mi</a></li>
-                                <li><a href="#">Contacto</a></li>
+                                <li><a href="index.html#servicios">Servicios</a></li>
+                                <li><a href="index.html#portafolio">Portafolio</a></li>
+                                <li><a href="index.html#sobremi">Sobre Mi</a></li>
+                                <li><a href="contacto.html">Contacto</a></li>
                             </ul>
                     </div>
                     <div class="col-md-4 footer__sub d-flex flex-column">

@@ -1,0 +1,33 @@
+.fondo__contacto {
+    height: 0;
+}
+.aligncenter--contacto {
+    padding-top: 5%;
+    text-align: center;
+    margin: 0 auto;
+}
+.color__contacto  {
+    background-color: $color-blanco;
+    margin-top: -100px;
+
+
+}
+.col__iframe {
+    padding: 0px;
+}
+.form-group label {
+    color: $color-principal;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.form-control  {
+    font-size: 1.3rem;
+}
+.margin__formulario {
+    @media (max-width:767px) {
+        
+        padding: 25px;
+        
+    }
+}
